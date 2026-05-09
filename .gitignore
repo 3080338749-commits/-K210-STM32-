@@ -1,0 +1,31 @@
+# Build outputs
+*.o
+*.bin
+*.elf
+*.hex
+*.exe
+*.d
+*.out
+*.a
+*.so
+*.lib
+*.dll
+
+# Debug / Release directories
+Debug/
+Release/
+build/
+dist/
+output/
+
+# IDE files (RT-Thread Studio specific)
+.settings/
+
+# Logs
+*.log
+Logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
