@@ -94,26 +94,3 @@ STM32 与 K210 之间采用 UART 串口通信。
 
 STM32 接收数据后会先判断帧头和帧尾是否正确。如果数据帧格式错误，则丢弃该帧数据，避免错误数据直接触发开门动作。
 
-## 项目目录结构
-
-实际上传时可以按照下面的结构整理：
-
-```text
-STM32-Smart-Access-Control/
-├── README.md
-├── STM32/
-│   ├── Core/
-│   ├── Drivers/
-│   ├── MDK-ARM/
-│   └── STM32CubeMX_Config/
-├── K210/
-│   ├── main.py
-│   └── model/
-├── Hardware/
-│   ├── schematic/
-│   └── wiring/
-├── Docs/
-│   ├── system_flowchart/
-│   ├── test_results/
-│   └── images/
-└── .gitignore
